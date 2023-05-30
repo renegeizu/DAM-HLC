@@ -1,0 +1,96 @@
+body{
+	padding: 0px;
+    margin: 0px;
+    font-family: Lucida,Arial;
+    font-size: 11px;
+	background:url('../Imagenes/Fondo.jpg');
+}
+
+h1, li, span{
+	color: rgba(0,0,0,1);
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.Heroe {
+    background-image: url('../Imagenes/Jugador.png');
+    background-position: 0px 0px;
+    z-index: 3;
+}
+
+div.Muro{
+    background-image: url('../Imagenes/Muro.png');
+}
+
+div.FalsoMuro{
+    background-image: url('../Imagenes/MuroFalso.png');
+}
+
+div.Bomba{
+    z-index: 2;
+    background-image: url('../Imagenes/Bomba.png');
+}
+
+div.Enemigo {
+    background-image: url('../Imagenes/Enemigo1.png');
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+div.Beneficio {
+
+}
+
+div.intro {
+    background-image: url('../Imagenes/Pantalla.png');
+    width: 600px;
+    height: 600px;
+    font-family: Verdana,Arial;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+div.Mundo {
+    width: 600px;
+    height: 600px;
+}
+
+div#BarraLateral {
+    width: 608px;
+    height: 608px;
+    top: 5px;
+    left: 160px;
+    overflow: hidden;
+    background-image: url('../Imagenes/Borde.png');
+}
+
+div#GameView {
+	background-image:url(../Imagenes/Fondo.png);
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    top: 4px;
+    left: 4px;
+}
+
+div#Informacion {
+	margin-left:10px;
+    width: 350px;
+    height: 608px;
+    left: 772px;
+    top: 5px;
+    color: #ffffff;
+}
+
+span#Marcador {
+    font-weight: 900;
+    font-size: 18px;
+    padding-left: 5px;
+}
